@@ -1,0 +1,32 @@
+{
+  "name": "webfly-cfg",
+  "version": "1.0.0",
+  "description": "Webfly Config Package",
+  "scripts": {
+    "test": "node lib/test/test.js"
+  },
+  "files": [
+    "util"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/afroware/webfly-cfg.git"
+  },
+  "keywords": [
+    "webfly",
+    "config",
+    "cli"
+  ],
+  "author": "Adel Lamallam",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/afroware/webfly-cfg/issues"
+  },
+  "homepage": "https://github.com/afroware/webfly-cfg#readme",
+  "dependencies": {
+    "graceful-fs": "^4.1.11",
+    "mout": "^1.0.0",
+    "optimist": "^0.6.1",
+    "osenv": "^0.1.4"
+  }
+}
