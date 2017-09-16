@@ -6,7 +6,7 @@
     "test": "node lib/test/test.js"
   },
   "files": [
-    "util"
+    "lib"
   ],
   "repository": {
     "type": "git",
